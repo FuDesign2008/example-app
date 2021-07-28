@@ -1,5 +1,11 @@
 # Example App
 
+## Create App
+
+1. create app: `npx create-react-app example-app --template typescript`
+1. edit `tsconfig.json`: https://github.com/mrmckeb/typescript-plugin-css-modules
+1. add `src/app.module.css` and import it in `src/App.tsx`
+
 ## Code Completion When Editing
 
 1.  run `yarn install`
