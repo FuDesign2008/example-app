@@ -1,0 +1,53 @@
+2021-07-28 22:03:55,141 - INFO - Completion config: 50, detailing 0 candiates
+2021-07-28 22:03:55,141 - INFO - Completion config: 50, detailing 0 candiates
+2021-07-28 22:03:55,142 - INFO - Completion config: 50, detailing 0 candiates
+2021-07-28 22:03:55,142 - INFO - Completion config: 50, detailing 0 candiates
+127.0.0.1 - - [28/Jul/2021 22:03:55] "GET /ready HTTP/1.1" 200 4
+2021-07-28 22:04:01,895 - INFO - Using TypeScript completer with /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/bin/tsserver
+2021-07-28 22:04:01,895 - INFO - Completion config: 50, detailing 0 candiates
+2021-07-28 22:04:01,896 - INFO - TSServer log file: /tmp/tsserver_xjmmtz1k.log
+2021-07-28 22:04:01,897 - INFO - TSServer started with PID 427228
+2021-07-28 22:04:01,898 - INFO - Enabling TypeScript completion
+127.0.0.1 - - [28/Jul/2021 22:04:01] "GET /signature_help_available?subserver=typescriptreact HTTP/1.1" 200 19
+127.0.0.1 - - [28/Jul/2021 22:04:02] "POST /event_notification HTTP/1.1" 200 2
+2021-07-28 22:04:02,006 - INFO - Adding buffer identifiers for file: /home/fuyg/workspace/github2008/example-app/src/App.tsx
+127.0.0.1 - - [28/Jul/2021 22:04:02] "POST /receive_messages HTTP/1.1" 200 5
+127.0.0.1 - - [28/Jul/2021 22:04:02] "POST /receive_messages HTTP/1.1" 200 5
+127.0.0.1 - - [28/Jul/2021 22:04:03] "POST /receive_messages HTTP/1.1" 200 5
+2021-07-28 22:04:04,562 - INFO - Received projectLoadingStart event from TSServer
+2021-07-28 22:04:04,563 - INFO - Received projectLoadingFinish event from TSServer
+2021-07-28 22:04:04,563 - INFO - Received telemetry event from TSServer
+2021-07-28 22:04:04,563 - INFO - Received configFileDiag event from TSServer
+2021-07-28 22:04:04,563 - INFO - Received typingsInstallerPid event from TSServer
+127.0.0.1 - - [28/Jul/2021 22:04:04] "POST /event_notification HTTP/1.1" 200 2
+127.0.0.1 - - [28/Jul/2021 22:04:04] "POST /semantic_completion_available HTTP/1.1" 200 4
+127.0.0.1 - - [28/Jul/2021 22:04:10] "POST /completions HTTP/1.1" 200 58
+127.0.0.1 - - [28/Jul/2021 22:04:10] "POST /signature_help HTTP/1.1" 200 88
+127.0.0.1 - - [28/Jul/2021 22:04:10] "POST /signature_help HTTP/1.1" 200 88
+127.0.0.1 - - [28/Jul/2021 22:04:10] "POST /completions HTTP/1.1" 200 4748
+127.0.0.1 - - [28/Jul/2021 22:04:10] "POST /completions HTTP/1.1" 200 503
+127.0.0.1 - - [28/Jul/2021 22:04:10] "POST /signature_help HTTP/1.1" 200 88
+127.0.0.1 - - [28/Jul/2021 22:04:11] "POST /completions HTTP/1.1" 200 110
+127.0.0.1 - - [28/Jul/2021 22:04:11] "POST /signature_help HTTP/1.1" 200 88
+127.0.0.1 - - [28/Jul/2021 22:04:11] "POST /completions HTTP/1.1" 200 110
+127.0.0.1 - - [28/Jul/2021 22:04:11] "POST /signature_help HTTP/1.1" 200 88
+127.0.0.1 - - [28/Jul/2021 22:04:11] "POST /completions HTTP/1.1" 200 110
+127.0.0.1 - - [28/Jul/2021 22:04:11] "POST /signature_help HTTP/1.1" 200 88
+2021-07-28 22:04:11,560 - INFO - Adding ONE buffer identifier for file: /home/fuyg/workspace/github2008/example-app/src/App.tsx
+127.0.0.1 - - [28/Jul/2021 22:04:11] "POST /event_notification HTTP/1.1" 200 2
+127.0.0.1 - - [28/Jul/2021 22:04:11] "POST /signature_help HTTP/1.1" 200 88
+127.0.0.1 - - [28/Jul/2021 22:04:11] "POST /completions HTTP/1.1" 200 58
+127.0.0.1 - - [28/Jul/2021 22:04:14] "POST /completions HTTP/1.1" 200 110
+127.0.0.1 - - [28/Jul/2021 22:04:14] "POST /signature_help HTTP/1.1" 200 88
+2021-07-28 22:04:14,601 - INFO - Adding ONE buffer identifier for file: /home/fuyg/workspace/github2008/example-app/src/App.tsx
+127.0.0.1 - - [28/Jul/2021 22:04:14] "POST /event_notification HTTP/1.1" 200 2
+127.0.0.1 - - [28/Jul/2021 22:04:14] "POST /signature_help HTTP/1.1" 200 88
+127.0.0.1 - - [28/Jul/2021 22:04:14] "POST /completions HTTP/1.1" 200 58
+2021-07-28 22:04:15,314 - INFO - Adding buffer identifiers for file: /home/fuyg/workspace/github2008/example-app/src/App.tsx
+127.0.0.1 - - [28/Jul/2021 22:04:15] "POST /event_notification HTTP/1.1" 200 2
+127.0.0.1 - - [28/Jul/2021 22:04:15] "POST /event_notification HTTP/1.1" 200 639
+127.0.0.1 - - [28/Jul/2021 22:04:25] "POST /debug_info HTTP/1.1" 200 520
+127.0.0.1 - - [28/Jul/2021 22:04:46] "POST /receive_messages HTTP/1.1" 200 5
+127.0.0.1 - - [28/Jul/2021 22:05:09] "POST /debug_info HTTP/1.1" 200 520
+127.0.0.1 - - [28/Jul/2021 22:06:00] "POST /debug_info HTTP/1.1" 200 520
+127.0.0.1 - - [28/Jul/2021 22:06:49] "POST /debug_info HTTP/1.1" 200 520

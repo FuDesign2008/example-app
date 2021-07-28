@@ -1,0 +1,115 @@
+Info 0    [22:04:02.121] Starting TS Server
+Info 1    [22:04:02.122] Version: 4.1.5
+Info 2    [22:04:02.122] Arguments: /home/fuyg/.config/nvm/versions/node/v12.22.1/bin/node /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/bin/tsserver
+Info 3    [22:04:02.122] Platform: linux NodeVersion: 12 CaseSensitive: true
+Info 4    [22:04:02.122] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [22:04:02.133] Search path: /home/fuyg/workspace/github2008/example-app/src
+Info 6    [22:04:02.134] For info: /home/fuyg/workspace/github2008/example-app/src/App.tsx :: Config file name: /home/fuyg/workspace/github2008/example-app/tsconfig.json
+Info 7    [22:04:02.135] Opened configuration file /home/fuyg/workspace/github2008/example-app/tsconfig.json
+Info 8    [22:04:02.155] Config: /home/fuyg/workspace/github2008/example-app/tsconfig.json : {
+ "rootNames": [
+  "/home/fuyg/workspace/github2008/example-app/src/App.test.tsx",
+  "/home/fuyg/workspace/github2008/example-app/src/App.tsx",
+  "/home/fuyg/workspace/github2008/example-app/src/index.tsx",
+  "/home/fuyg/workspace/github2008/example-app/src/react-app-env.d.ts",
+  "/home/fuyg/workspace/github2008/example-app/src/reportWebVitals.ts",
+  "/home/fuyg/workspace/github2008/example-app/src/setupTests.ts"
+ ],
+ "options": {
+  "target": 1,
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts",
+   "lib.esnext.d.ts"
+  ],
+  "allowJs": true,
+  "skipLibCheck": true,
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": true,
+  "strict": true,
+  "forceConsistentCasingInFileNames": true,
+  "noFallthroughCasesInSwitch": true,
+  "module": 99,
+  "moduleResolution": 2,
+  "resolveJsonModule": true,
+  "isolatedModules": true,
+  "noEmit": true,
+  "jsx": 4,
+  "plugins": [
+   {
+    "name": "typescript-plugin-css-modules"
+   }
+  ],
+  "configFilePath": "/home/fuyg/workspace/github2008/example-app/tsconfig.json"
+ }
+}
+Info 9    [22:04:02.159] Enabling plugin typescript-plugin-css-modules from candidate paths: /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js/../../..
+Info 10   [22:04:02.159] Loading typescript-plugin-css-modules from /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js/../../.. (resolved to /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/node_modules)
+Info 11   [22:04:02.177] Failed to load module 'typescript-plugin-css-modules' from /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/node_modules: Error: Could not resolve JS module 'typescript-plugin-css-modules' starting at '/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/node_modules'. Looked in: /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript-plugin-css-modules/package.json, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript-plugin-css-modules.js, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript-plugin-css-modules.jsx, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript-plugin-css-modules/index.js, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript-plugin-css-modules/index.jsx, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/node_modules/typescript-plugin-css-modules/package.json, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/node_modules/typescript-plugin-css-modules.js, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/node_modules/typescript-plugin-css-modules.jsx, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/node_modules/typescript-plugin-css-modules/index.js, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/node_modules/typescript-plugin-css-modules/index.jsx, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/node_modules/typescript-plugin-css-modules/package.json, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/node_modules/typescript-plugin-css-modules.js, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/node_modules/typescript-plugin-css-modules.jsx, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/node_modules/typescript-plugin-css-modules/index.js, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/node_modules/typescript-plugin-css-modules/index.jsx, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/node_modules/typescript-plugin-css-modules/package.json, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/node_modules/typescript-plugin-css-modules.js, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/node_modules/typescript-plugin-css-modules.jsx, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/node_modules/typescript-plugin-css-modules/index.js, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/node_modules/typescript-plugin-css-modules/index.jsx, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/node_modules/typescript-plugin-css-modules/package.json, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/node_modules/typescript-plugin-css-modules.js, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/node_modules/typescript-plugin-css-modules.jsx, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/node_modules/typescript-plugin-css-modules/index.js, /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/node_modules/typescript-plugin-css-modules/index.jsx, /home/fuyg/.fudesign2008.vim/.vim/bundle/node_modules/typescript-plugin-css-modules/package.json, /home/fuyg/.fudesign2008.vim/.vim/bundle/node_modules/typescript-plugin-css-modules.js, /home/fuyg/.fudesign2008.vim/.vim/bundle/node_modules/typescript-plugin-css-modules.jsx, /home/fuyg/.fudesign2008.vim/.vim/bundle/node_modules/typescript-plugin-css-modules/index.js, /home/fuyg/.fudesign2008.vim/.vim/bundle/node_modules/typescript-plugin-css-modules/index.jsx, /home/fuyg/.fudesign2008.vim/.vim/node_modules/typescript-plugin-css-modules/package.json, /home/fuyg/.fudesign2008.vim/.vim/node_modules/typescript-plugin-css-modules.js, /home/fuyg/.fudesign2008.vim/.vim/node_modules/typescript-plugin-css-modules.jsx, /home/fuyg/.fudesign2008.vim/.vim/node_modules/typescript-plugin-css-modules/index.js, /home/fuyg/.fudesign2008.vim/.vim/node_modules/typescript-plugin-css-modules/index.jsx, /home/fuyg/.fudesign2008.vim/node_modules/typescript-plugin-css-modules/package.json, /home/fuyg/.fudesign2008.vim/node_modules/typescript-plugin-css-modules.js, /home/fuyg/.fudesign2008.vim/node_modules/typescript-plugin-css-modules.jsx, /home/fuyg/.fudesign2008.vim/node_modules/typescript-plugin-css-modules/index.js, /home/fuyg/.fudesign2008.vim/node_modules/typescript-plugin-css-modules/index.jsx, /home/fuyg/node_modules/typescript-plugin-css-modules/package.json, /home/fuyg/node_modules/typescript-plugin-css-modules.js, /home/fuyg/node_modules/typescript-plugin-css-modules.jsx, /home/fuyg/node_modules/typescript-plugin-css-modules/index.js, /home/fuyg/node_modules/typescript-plugin-css-modules/index.jsx, /home/node_modules/typescript-plugin-css-modules/package.json, /home/node_modules/typescript-plugin-css-modules.js, /home/node_modules/typescript-plugin-css-modules.jsx, /home/node_modules/typescript-plugin-css-modules/index.js, /home/node_modules/typescript-plugin-css-modules/index.jsx, /node_modules/typescript-plugin-css-modules/package.json, /node_modules/typescript-plugin-css-modules.js, /node_modules/typescript-plugin-css-modules.jsx, /node_modules/typescript-plugin-css-modules/index.js, /node_modules/typescript-plugin-css-modules/index.jsx
+    at Object.resolveJSModule (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:39160:19)
+    at Object.sys.require (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:160820:45)
+    at Function.Project.resolveModule (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:150882:35)
+    at /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:151970:36
+    at Object.firstDefined (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:218:26)
+    at ConfiguredProject.Project.enablePlugin (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:151969:41)
+    at ConfiguredProject.enablePluginsWithOptions (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:152477:30)
+    at ProjectService.loadConfiguredProject (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:154206:25)
+    at ProjectService.createAndLoadConfiguredProject (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:154145:22)
+    at ProjectService.createLoadAndUpdateConfiguredProject (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:154150:36)
+    at ProjectService.assignProjectToOpenedScriptInfo (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:155055:44)
+    at ProjectService.openClientFileWithNormalizedPath (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:155216:31)
+    at IOSession.Session.openClientFile (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:157462:37)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:156483:31)
+    at /home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:158286:88
+    at IOSession.Session.executeWithRequestId (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:158277:28)
+    at IOSession.Session.executeCommand (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:158286:33)
+    at IOSession.Session.onMessage (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:158310:35)
+    at Interface.<anonymous> (/home/fuyg/.fudesign2008.vim/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tsserver/node_modules/typescript/lib/tsserver.js:160520:27)
+    at Interface.emit (events.js:314:20)
+    at Interface._onLine (readline.js:329:10)
+    at Interface._normalWrite (readline.js:474:12)
+    at Socket.ondata (readline.js:186:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 12   [22:04:02.177] Couldn't find typescript-plugin-css-modules
+Info 13   [22:04:02.220] Starting updateGraphWorker: Project: /home/fuyg/workspace/github2008/example-app/tsconfig.json
+Info 14   [22:04:04.410] Finishing updateGraphWorker: Project: /home/fuyg/workspace/github2008/example-app/tsconfig.json Version: 1 structureChanged: true Elapsed: 2189.9654490053654ms
+Info 15   [22:04:04.410] Project '/home/fuyg/workspace/github2008/example-app/tsconfig.json' (Configured)
+Info 16   [22:04:04.410] 	Files (185)
+
+Info 17   [22:04:04.410] -----------------------------------------------
+Info 18   [22:04:04.420] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 19   [22:04:04.556] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true Elapsed: 136.2580400109291ms
+Info 20   [22:04:04.556] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 21   [22:04:04.556] 	Files (2)
+
+Info 22   [22:04:04.556] -----------------------------------------------
+Info 23   [22:04:04.562] Project '/home/fuyg/workspace/github2008/example-app/tsconfig.json' (Configured)
+Info 23   [22:04:04.562] 	Files (185)
+
+Info 23   [22:04:04.562] -----------------------------------------------
+Info 23   [22:04:04.562] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 23   [22:04:04.562] 	Files (2)
+
+Info 23   [22:04:04.562] -----------------------------------------------
+Info 23   [22:04:04.562] Open files: 
+Info 23   [22:04:04.562] 	FileName: /home/fuyg/workspace/github2008/example-app/src/App.tsx ProjectRootPath: undefined
+Info 23   [22:04:04.562] 		Projects: /home/fuyg/workspace/github2008/example-app/tsconfig.json
+Info 23   [22:04:11.563] Starting updateGraphWorker: Project: /home/fuyg/workspace/github2008/example-app/tsconfig.json
+Info 24   [22:04:11.571] Finishing updateGraphWorker: Project: /home/fuyg/workspace/github2008/example-app/tsconfig.json Version: 2 structureChanged: false Elapsed: 8.468958973884583ms
+Info 25   [22:04:11.572] Different program with same set of files:: structureIsReused:: 2
+Info 26   [22:04:11.573] getCompletionData: Get current token: 0.024987995624542236
+Info 27   [22:04:11.573] getCompletionData: Is inside comment: 0.0311259925365448
+Info 28   [22:04:11.573] getCompletionData: Get previous token 1: 0.02369701862335205
+Info 29   [22:04:11.574] getCompletionsAtPosition: isCompletionListBlocker: 0.15370699763298035
+Info 30   [22:04:11.575] getCompletionData: Semantic work: 1.5475040078163147
+Info 31   [22:04:11.576] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.002611994743347168
+Info 32   [22:04:14.603] getCompletionData: Get current token: 0.015671998262405396
+Info 33   [22:04:14.603] getCompletionData: Is inside comment: 0.031457990407943726
+Info 34   [22:04:14.603] getCompletionData: Get previous token 1: 0.016750991344451904
+Info 35   [22:04:14.603] getCompletionsAtPosition: isCompletionListBlocker: 0.003040999174118042
+Info 36   [22:04:14.603] getCompletionData: Semantic work: 0.16802498698234558
+Info 37   [22:04:14.604] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.0017560124397277832
